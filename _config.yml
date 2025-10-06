@@ -13,9 +13,9 @@ title                    : "Nicholas A Potter"
 title_separator          : "-"
 name                     : &name "Nicholas Potter"
 description              : &description "personal description"
-url                      : "https://potterzot.github.io" # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
+url                      : "https://econpotter.github.io" # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "potterzot/potterzot.github.io"
+repository               : "econpotter/econpotter.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -28,10 +28,10 @@ author:
   bio              : "Natural resources economist with a focus on climate, agriculture, and water."
   location         : "Fort Collins, CO"
   employer         : "USDA Economic Research Service"
-  uri              : "https://potterzot.github.io"
+  uri              : "https://econpotter.github.io"
   email            : "econpotter@gmail.com" 
   orcid            : "http://orcid.org/my-orcid?orcid=0000-0002-3410-3732"
-  github           : "potterzot"
+  github           : "econpotter"
   googlescholar    : "https://scholar.google.com/citations?user=Nel4Y1MAAAAJ"
   linkedin         : "econpotter"
   bluesky          : "econpotter.bsky.social" # Replace this with you Bluesky username
