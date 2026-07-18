@@ -1,0 +1,59 @@
+---
+title: "Nicholas Potter"
+image: images/portrait1.png
+about:
+  template: trestles
+  links:
+    - icon: github
+      text: GitHub
+      href: https://github.com/econpotter
+    - text: "Google Scholar"
+      href: https://scholar.google.com/citations?user=Nel4Y1MAAAAJ
+    - text: ORCID
+      href: https://orcid.org/0000-0002-3410-3732
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/econpotter
+    - icon: file-earmark-text
+      text: CV
+      href: files/potter-cv.pdf
+---
+
+I'm an economist working on water, climate, and agriculture in the western
+United States. I'm a research economist at USDA's Economic Research Service,
+where my work focuses on water supplies, drought, and irrigated agriculture.
+Outside of that role I build tools that make water and climate risk easier to
+understand: parsing water-right records and their case histories, forecasting
+seasonal water supply, and estimating the regional economic consequences of
+change in agriculture and natural resources. I publish academic work as
+Nicholas A. Potter.
+
+## Selected publications
+
+- Cameron-Harp, M.V., Hendricks, N.P., & Potter, N.A. (2024). Predicting the
+  spatial variation in cost-efficiency for agricultural greenhouse gas
+  mitigation programs in the U.S. *Carbon Balance and Management*.
+  [doi:10.1186/s13021-024-00252-6](https://doi.org/10.1186/s13021-024-00252-6)
+- Hrozencik, R.A., Potter, N.A., & Wallander, S. (2023). The Cost-Effectiveness
+  of Irrigation Canal Lining and Piping in the Western United States. In
+  *American Agriculture, Water Resources, and Climate Change* (University of
+  Chicago Press).
+  [doi:10.7208/chicago/9780226830629.003.0004](https://doi.org/10.7208/chicago/9780226830629.003.0004)
+- Hrozencik, R.A., Potter, N.A., & Wallander, S. (2025). Irrigation
+  Organizations: Water Measurement and Pricing. *USDA Economic Research
+  Service*.
+  [doi:10.32747/2025.9015825.ers](https://doi.org/10.32747/2025.9015825.ers)
+- Potter, N.A. (2019). rnassqs: An R package to access agricultural data via
+  the USDA-NASS Quick Stats API. *Journal of Open Source Software*.
+  [doi:10.21105/joss.01880](https://doi.org/10.21105/joss.01880)
+
+Full list on [ORCID](https://orcid.org/0000-0002-3410-3732) and
+[Google Scholar](https://scholar.google.com/citations?user=Nel4Y1MAAAAJ).
+
+## Projects
+
+- [rnassqs](https://github.com/ropensci/rnassqs) — R package for the USDA
+  NASS Quick Stats API; on [CRAN](https://cran.r-project.org/package=rnassqs)
+  since 2019.
+- [herdr](https://github.com/econpotter/herdr) — my fork of the terminal
+  agent multiplexer, with render-path performance patches.
