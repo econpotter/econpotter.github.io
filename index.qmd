@@ -19,17 +19,24 @@ about:
       href: files/potter-cv.pdf
 ---
 
-I'm an economist working on water, climate, and agriculture in the western
-United States. I'm a research economist at USDA's Economic Research Service,
-where my work focuses on water supplies, drought, and irrigated agriculture.
-Outside of that role I build tools that make water and climate risk easier to
-understand: parsing water-right records and their case histories, forecasting
-seasonal water supply, and estimating the regional economic consequences of
-change in agriculture and natural resources. I publish academic work as
-Nicholas A. Potter.
+I'm an economist working on water, climate, and agriculture issues. 
+Currently at the USDA Economic Research Service, where in addition to research
+I serve as the databricks integration liason and am on the GitHub Steering Committee,
+responsible for developing agency structures that encourage modern reproducibility
+workflows while ensuring ERS meets the mandate of Federal statistical agencies in 
+protecting private data.
+Outside of that role I build AI-centered tools that make water and climate risk salient.
 
 ## Selected publications
 
+- Yourek, M., Haller, D., Potter, N.A., Rajagopalan, K., Garcia, K.S.D., &
+  Yoder, J. (2026). Water right forfeiture in Washington state from 1967 to
+  2019. *Water Policy*.
+  [doi:10.2166/wp.2026.096](https://doi.org/10.2166/wp.2026.096)
+- Potter, N.A., Hrozencik, R.A., & Wallander, S. (2025). Irrigation
+  Organizations: Organization Types and Governance. *USDA Economic Research
+  Service*, EB-45.
+  [ers.usda.gov](https://www.ers.usda.gov/publications/pub-details?pubid=113263)
 - Cameron-Harp, M.V., Hendricks, N.P., & Potter, N.A. (2024). Predicting the
   spatial variation in cost-efficiency for agricultural greenhouse gas
   mitigation programs in the U.S. *Carbon Balance and Management*.
@@ -39,10 +46,10 @@ Nicholas A. Potter.
   *American Agriculture, Water Resources, and Climate Change* (University of
   Chicago Press).
   [doi:10.7208/chicago/9780226830629.003.0004](https://doi.org/10.7208/chicago/9780226830629.003.0004)
-- Hrozencik, R.A., Potter, N.A., & Wallander, S. (2025). Irrigation
-  Organizations: Water Measurement and Pricing. *USDA Economic Research
-  Service*.
-  [doi:10.32747/2025.9015825.ers](https://doi.org/10.32747/2025.9015825.ers)
+- Potter, N.A., Hrozencik, R.A., & Wallander, S. (2023). Irrigation
+  Organizations: Water Inflows and Outflows. *USDA Economic Research Service*,
+  EB-36.
+  [ers.usda.gov](https://www.ers.usda.gov/publications/pub-details?pubid=107066)
 - Potter, N.A. (2019). rnassqs: An R package to access agricultural data via
   the USDA-NASS Quick Stats API. *Journal of Open Source Software*.
   [doi:10.21105/joss.01880](https://doi.org/10.21105/joss.01880)
