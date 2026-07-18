@@ -1,0 +1,17 @@
+project:
+  type: website
+  output-dir: docs
+  render:
+    - index.qmd
+  resources:
+    - files/potter-cv.pdf
+
+website:
+  title: "Nicholas Potter"
+  favicon: images/favicon.ico
+
+format:
+  html:
+    theme: cosmo
+    toc: false
+    from: markdown-smart
