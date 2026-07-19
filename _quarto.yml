@@ -1,8 +1,11 @@
 project:
   type: website
   output-dir: docs
+  render:
+    - index.qmd
   resources:
     - CNAME
+    - files/potter-cv.pdf
 
 website:
   title: "Nicholas Potter"
