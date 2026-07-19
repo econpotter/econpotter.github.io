@@ -61,3 +61,11 @@ Full list on [ORCID](https://orcid.org/0000-0002-3410-3732) and
   since 2019.
 - [herdr](https://github.com/econpotter/herdr) — my fork of the terminal
   agent multiplexer, with render-path performance patches.
+- [orchestra](https://github.com/econpotter/orchestra) — runs development
+  work across many repositories unattended: sandboxed AI worker and verifier
+  runs with human approval gates.
+- [openbrain](https://github.com/econpotter/openbrain) — personal AI memory
+  and knowledge base: one Postgres database, one MCP server, any AI plugs in.
+- [agentic-researcher](https://github.com/econpotter/agentic-researcher) —
+  automated economics-research pipeline over openbrain: paper harvest,
+  relation, and literature review.
