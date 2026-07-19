@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Nicholas Potter</title>
+<title>identity-hub-design – Nicholas Potter</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,21 +23,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./images/favicon.ico" rel="icon">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-1db9db9d12f076ef02cb2be75e5a101c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../images/favicon.ico" rel="icon">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-1db9db9d12f076ef02cb2be75e5a101c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -78,67 +79,85 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<div class="quarto-about-trestles">
-  <div class="about-entity">
-    <img src="images/portrait1.png" class="about-image
-  rounded " style="width: 20em;">
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Nicholas Potter</h1>
-</div>
-<div class="quarto-title-meta">
-  </div>
-</header>
-    <div class="about-links">
-  <a href="https://github.com/econpotter" class="about-link" rel="" target="">
-    <i class="bi bi-github"></i>
-     <span class="about-link-text">GitHub</span>
-  </a>
-  <a href="https://scholar.google.com/citations?user=Nel4Y1MAAAAJ" class="about-link" rel="" target="">
-     <span class="about-link-text">Google Scholar</span>
-  </a>
-  <a href="https://orcid.org/0000-0002-3410-3732" class="about-link" rel="" target="">
-     <span class="about-link-text">ORCID</span>
-  </a>
-  <a href="https://www.linkedin.com/in/econpotter" class="about-link" rel="" target="">
-    <i class="bi bi-linkedin"></i>
-     <span class="about-link-text">LinkedIn</span>
-  </a>
-  <a href="/files/potter-cv.pdf" class="about-link" rel="" target="">
-    <i class="bi bi-file-earmark-text"></i>
-     <span class="about-link-text">CV</span>
-  </a>
-</div>
-  </div>
-  <div class="about-contents"><main class="content" id="quarto-document-content">
-<p>I'm a Research Economist at the USDA Economic Research Service working on water, climate, and agriculture issues. At ERS I'm also the liaison for ERS's Databricks integration and serve on the GitHub Steering Committee, helping the agency build reproducible research workflows that still meet a statistical agency's duty to protect confidential data. Outside of that role I build AI-centered tools for water, climate, and agricultural economics.</p>
-<section id="selected-publications" class="level2">
-<h2 data-anchor-id="selected-publications">Selected publications</h2>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+
+
+
+
+<section id="identity-hub-site-rebuild-spec" class="level1">
+<h1>Identity hub — site rebuild spec</h1>
+<p>Date: 2026-07-18. Status: approved by operator 2026-07-18.</p>
+<section id="job-of-the-site" class="level2">
+<h2 class="anchored" data-anchor-id="job-of-the-site">Job of the site</h2>
+<p>econpotter.github.io is a professional identity hub: a single page that lets a first-time professional visitor learn who Nicholas Potter is, what he does, and where the proof lives — in under a minute. It is not a blog, an academic CV shell, or a company site. Publishing belongs to future spokes (Substack); company/product pages get their own homes later.</p>
+<p>Identity architecture (ratified 2026-07-18 in conversation): byline <strong>Nicholas Potter</strong> (publishes academically as Nicholas A. Potter); handle <strong>econpotter</strong> across domain and platforms; company branding is a separate, deferred decision.</p>
+</section>
+<section id="platform-rebuild-in-quarto" class="level2">
+<h2 class="anchored" data-anchor-id="platform-rebuild-in-quarto">Platform: rebuild in Quarto</h2>
+<p>Replace the Jekyll/academicpages site with a fresh Quarto website in this repository. Rationale (operator-confirmed): the site's footprint after content decisions is one page plus a CV PDF and a projects list — a clean Quarto rebuild is less work than gutting the academic theme, and Quarto is the operator's native toolchain (R, .qmd, existing render workflow).</p>
 <ul>
-<li>Yourek, M., Haller, D., Potter, N.A., Rajagopalan, K., Garcia, K.S.D., &amp; Yoder, J. (2026). Water right forfeiture in Washington state from 1967 to
+<li>Keep the repository and branch (<code>master</code>); replace site source.</li>
+<li>Deploy via GitHub Pages (gh-pages branch or GitHub Action, implementer's choice; document the choice in the repo README).</li>
+<li>Preserve in git history (no force-push); old Jekyll source is deleted in the rebuild commit, not archived in the working tree.</li>
+<li>Custom domain: when the operator has purchased econpotter.com, add the <code>CNAME</code> file. Do not add before.</li>
+<li>Keep the existing portrait image and CV PDF. Drop the resume PDF from the site (CV is canonical; resumes are tailored per application, off-site).</li>
+</ul>
+</section>
+<section id="page-structure-single-page" class="level2">
+<h2 class="anchored" data-anchor-id="page-structure-single-page">Page structure (single page)</h2>
+<ol type="1">
+<li><p><strong>Identity block</strong> — portrait + this ratified paragraph, verbatim:</p>
+<blockquote class="blockquote">
+<p>I'm an economist working on water, climate, and agriculture in the western United States. I'm a research economist at USDA's Economic Research Service, where my work focuses on water supplies, drought, and irrigated agriculture. Outside of that role I build tools that make water and climate risk easier to understand: parsing water-right records and their case histories, forecasting seasonal water supply, and estimating the regional economic consequences of change in agriculture and natural resources. I publish academic work as Nicholas A. Potter.</p>
+</blockquote>
+<p>The three tool clauses become links (AIDD, water-forecast, agio) only as each goes public; plain text until then.</p></li>
+<li><p><strong>Selected publications</strong> — 3-4 peer-reviewed papers, DOI/publisher links, populated from the operator's real record (ORCID 0000-0002-3410-3732 / Google Scholar). One closing line: "Full list on ORCID and Google Scholar." No separate publications page.</p></li>
+<li><p><strong>Projects</strong> — public repositories only, one line each (what it is + link):</p>
+<ul>
+<li><strong>rnassqs</strong> — R package for the USDA NASS Quick Stats API; on CRAN since
 <ol start="2019" type="1">
-<li><em>Water Policy</em>. <a href="https://doi.org/10.2166/wp.2026.096">doi:10.2166/wp.2026.096</a></li>
+<li>(CRAN + GitHub links.)</li>
 </ol></li>
-<li>Potter, N.A., Hrozencik, R.A., &amp; Wallander, S. (2025). Irrigation Organizations: Organization Types and Governance. <em>USDA Economic Research Service</em>, EB-45. <a href="https://www.ers.usda.gov/publications/pub-details?pubid=113263">ers.usda.gov</a></li>
-<li>Cameron-Harp, M.V., Hendricks, N.P., &amp; Potter, N.A. (2024). Predicting the spatial variation in cost-efficiency for agricultural greenhouse gas mitigation programs in the U.S. <em>Carbon Balance and Management</em>. <a href="https://doi.org/10.1186/s13021-024-00252-6">doi:10.1186/s13021-024-00252-6</a></li>
-<li>Hrozencik, R.A., Potter, N.A., &amp; Wallander, S. (2023). The Cost-Effectiveness of Irrigation Canal Lining and Piping in the Western United States. In <em>American Agriculture, Water Resources, and Climate Change</em> (University of Chicago Press). <a href="https://doi.org/10.7208/chicago/9780226830629.003.0004">doi:10.7208/chicago/9780226830629.003.0004</a></li>
-<li>Potter, N.A., Hrozencik, R.A., &amp; Wallander, S. (2023). Irrigation Organizations: Water Inflows and Outflows. <em>USDA Economic Research Service</em>, EB-36. <a href="https://www.ers.usda.gov/publications/pub-details?pubid=107066">ers.usda.gov</a></li>
-<li>Potter, N.A. (2019). rnassqs: An R package to access agricultural data via the USDA-NASS Quick Stats API. <em>Journal of Open Source Software</em>. <a href="https://doi.org/10.21105/joss.01880">doi:10.21105/joss.01880</a></li>
-</ul>
-<p>Full list on <a href="https://orcid.org/0000-0002-3410-3732">ORCID</a> and <a href="https://scholar.google.com/citations?user=Nel4Y1MAAAAJ">Google Scholar</a>.</p>
+<li><strong>herdr</strong> (fork) — one line on what the operator's fork adds.</li>
+<li>Section grows as further repos become public (orchestra, openbrain, agentic-researcher, agio-engine at its release). Never list a private or placeholder repo.</li>
+</ul></li>
+<li><p><strong>Link rail</strong> — GitHub (econpotter) · Google Scholar · ORCID (corrected URL) · LinkedIn · CV (PDF). Spokes (Substack, X, YouTube, product pages) are added only when live.</p></li>
+</ol>
+<p>No nav bar; a single page with anchors at most. No "Now" section (everything is alpha; the identity paragraph carries the generic work summary).</p>
 </section>
-<section id="projects" class="level2">
-<h2 data-anchor-id="projects">Projects</h2>
+<section id="constraints" class="level2">
+<h2 class="anchored" data-anchor-id="constraints">Constraints</h2>
 <ul>
-<li><a href="https://github.com/ropensci/rnassqs">rnassqs</a> — R package for the USDA NASS Quick Stats API; on <a href="https://cran.r-project.org/package=rnassqs">CRAN</a> since 2019.</li>
-<li><a href="https://github.com/econpotter/herdr">herdr</a> — my fork of the terminal agent multiplexer, with render-path performance patches.</li>
+<li><strong>No departure language.</strong> The site must not say or imply the operator is leaving USDA. USDA role and independent tool-building are both stated, as in the ratified paragraph.</li>
+<li>No dead links, placeholder sections, or empty collections anywhere.</li>
+<li>Match the operator's writing style (<code>~/.config/agents/references/   writing-style.md</code>) for any connective copy beyond the ratified paragraph; keep such copy minimal and present it for review before merge.</li>
+</ul>
+</section>
+<section id="out-of-scope" class="level2">
+<h2 class="anchored" data-anchor-id="out-of-scope">Out of scope</h2>
+<ul>
+<li>Making orchestra/openbrain/agentic-researcher public (separate per-repo tasks: secrets/path scan, README, license, then flip; each task proposed individually).</li>
+<li>Substack, X, YouTube account creation; domain purchase; company pages.</li>
+<li>New articles or blog machinery.</li>
+<li>The new professional photo (TODO item) — launch with the existing portrait, swap later.</li>
+</ul>
+</section>
+<section id="acceptance" class="level2">
+<h2 class="anchored" data-anchor-id="acceptance">Acceptance</h2>
+<ul>
+<li>Quarto site builds cleanly (<code>quarto render</code>) and deploys on GitHub Pages.</li>
+<li>Single page matching the structure above; ratified paragraph verbatim.</li>
+<li>Every link resolves; ORCID link corrected; no Jekyll remnants served.</li>
+<li>Projects lists exactly rnassqs and herdr at launch.</li>
+<li>No departure language.</li>
+<li>Operator reviews rendered site before it replaces the live one.</li>
 </ul>
 
 
 </section>
-</main></div>
-</div>
- <!-- /main -->
+</section>
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -159,6 +178,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     
