@@ -1,0 +1,14 @@
+#!/bin/sh
+# Re-render Quarto site (docs/) before commit whenever a .qmd source changed
+# or docs/ hasn't been updated to match staged .qmd changes.
+set -e
+
+if git diff --cached --name-only --diff-filter=ACM | grep -q '\.qmd$'; then
+  if ! command -v quarto >/dev/null 2>&1; then
+    echo "pre-commit: staged .qmd changes but 'quarto' not found on PATH. Install quarto or render manually." >&2
+    exit 1
+  fi
+  echo "pre-commit: rendering site with quarto..."
+  quarto render
+  git add docs/
+fi
